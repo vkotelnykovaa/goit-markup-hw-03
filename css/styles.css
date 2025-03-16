@@ -97,10 +97,10 @@ li {
 }
 
 .list_marg {
-   gap: 40px
+   gap: 40px;
 }
 
-.list_marg{
+.list_marg {
    padding: 24px 0;
 }
 
@@ -129,7 +129,7 @@ li {
    margin-right: 76px;
 }
 
-.addres_cont{
+.addres_cont {
    gap: 40px;
 }
 
@@ -140,7 +140,6 @@ li {
    letter-spacing: 0.02em;
    color: #2e2f42;
    text-decoration: none;
-
 }
 
 .navigation_item a:hover,
@@ -158,6 +157,7 @@ li {
    text-transform: capitalize;
    margin-bottom: 72px;
 }
+
 .portfolio_title {
    font-weight: 700;
    font-size: 36px;
@@ -177,10 +177,10 @@ li {
    text-align: center;
 }
 
-.teamsection-details{
-         padding: 32px 0;
-         text-align: center;
-         background-color: #f4f4f4;
+.teamsection-details {
+   padding: 32px 0;
+   text-align: center;
+   background-color: #f4f4f4;
 }
 
 .title_three {
@@ -255,7 +255,6 @@ li {
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
-
 }
 
 .contacts:hover,
@@ -299,11 +298,11 @@ li {
    padding: 0 15px;
 }
 
-.fd_row{
+.fd_row {
    flex-direction: row;
 }
 
-.fd_column{
+.fd_column {
    flex-direction: column;
    align-items: center;
 }
@@ -320,7 +319,7 @@ li {
    padding: 100px 0;
 }
 
-.container_nav{
+.container_nav {
    align-items: center;
 }
 
@@ -398,7 +397,6 @@ li {
    margin-bottom: 8px;
 }
 
-
 .text {
    font-weight: 400;
    font-size: 16px;
@@ -418,44 +416,21 @@ li {
 }
 
 .portfolio_item {
-   width: calc((100% - 48px) / 3);
-   margin-right: 24px;
-   margin-bottom: 48px;
-}
-
-.portfolio_item:nth-child(3n) {
-   margin-right: 0;
-}
-
-.portfolio_content {
-   padding: 32px 16px;
    border: 1px solid #e7e9fc;
-   border-top: none;
+   padding: 10px;
+   width: calc(33.3333% - 24px);
    text-align: center;
 }
 
-.portfolio_name {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   color: #2e2f42;
-   margin-bottom: 8px;
+.portfolio_item:last-child {
+   margin-bottom: 0;
 }
 
-.portfolio_category {
-   font-weight: 400;
-   font-size: 16px;
-   color: #434455;
+.card {
+   padding: 20px;
 }
 
-.container_features {
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   flex-direction: column;
-   gap: 8px;
-}
-
-.inblock{
-   display: inline-block;
+.portfolio_img {
+   width: 100%;
+   height: auto;
 }
