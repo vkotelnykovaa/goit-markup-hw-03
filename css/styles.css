@@ -46,6 +46,9 @@ section {
    align-items: flex-start;
    justify-content: space-between;
    flex-direction: row;
+   border-bottom: 1px solid #e7e9fc;
+   max-width: 1158px;
+   padding: 0 15px;
 }
 
 section h2 {
@@ -54,9 +57,9 @@ section h2 {
 
 .container_nav {
    display: flex;
-   justify-content: space-between;
    flex-direction: row;
    gap: 20px;
+   align-items: center;
 }
 
 ul li {
@@ -93,11 +96,11 @@ li {
    color: white;
 }
 
-.list_marg{
-   gap: 20px;
+.list_marg {
+   gap: 24px;
 }
 
-.container-head{
+.container-head {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -113,6 +116,10 @@ li {
    color: #4d5ae5;
 }
 
+.addres_cont{
+   gap: 40px;
+}
+
 .navigation_item a {
    font-weight: 500;
    font-size: 16px;
@@ -120,6 +127,7 @@ li {
    letter-spacing: 0.02em;
    color: #2e2f42;
    text-decoration: none;
+
 }
 
 .navigation_item a:hover,
@@ -198,7 +206,7 @@ li {
    letter-spacing: 0.02em;
 }
 
-.container_buisness{
+.container_buisness {
    display: flex;
    align-items: flex-start;
    justify-content: flex-start;
