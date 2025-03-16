@@ -156,7 +156,7 @@ li {
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   margin-bottom: 8px;
+   margin-bottom: 72px;
 }
 .portfolio_title {
    font-weight: 700;
@@ -211,6 +211,19 @@ li {
    display: block;
    border: none;
    margin: 0 auto;
+   min-width: 169px;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   padding: 0;
+   border: 0;
+   clip: rect(0, 0, 0, 0);
+   clip-path: inset(50%);
+   overflow: hidden;
 }
 
 .order_but:hover {
@@ -385,6 +398,7 @@ li {
    margin-bottom: 8px;
 }
 
+
 .text {
    font-weight: 400;
    font-size: 16px;
@@ -399,6 +413,7 @@ li {
    display: flex;
    flex-wrap: wrap;
    gap: 24px;
+   row-gap: 48px;
    justify-content: flex-start;
 }
 
@@ -406,7 +421,6 @@ li {
    width: calc((100% - 48px) / 3);
    margin-right: 24px;
    margin-bottom: 48px;
-   row-gap: 48px;
 }
 
 .portfolio_item:nth-child(3n) {
@@ -440,4 +454,8 @@ li {
    justify-content: flex-start;
    flex-direction: column;
    gap: 8px;
+}
+
+.inblock{
+   display: inline-block;
 }
