@@ -145,6 +145,14 @@ li {
    text-transform: capitalize;
    margin-bottom: 8px;
 }
+.portfolio_title {
+   font-weight: 700;
+   font-size: 36px;
+   color: #2e2f42;
+   line-height: 1.11;
+   text-align: center;
+   margin-bottom: 72px;
+}
 
 .teamsection_list {
    background-color: #FFFFFF;
@@ -372,15 +380,6 @@ li {
    gap: 40px;
 }
 
-.portfolio_title {
-   font-weight: 700;
-   font-size: 36px;
-   color: #2e2f42;
-   line-height: 1.11;
-   text-align: center;
-   margin-bottom: 72px;
-}
-
 .portfolio_list_container {
    display: flex;
    flex-wrap: wrap;
@@ -392,6 +391,7 @@ li {
    width: calc((100% - 48px) / 3);
    margin-right: 24px;
    margin-bottom: 48px;
+   row-gap: 48px;
 }
 
 .portfolio_item:nth-child(3n) {
