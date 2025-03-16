@@ -97,10 +97,14 @@ li {
 }
 
 .list_marg {
-   gap: 24px;
+   gap: 40px
 }
 
-.container-head {
+list_marg{
+   padding: 24px 0;
+}
+
+.container_head {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -114,6 +118,7 @@ li {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
+   margin-right: 76px;
 }
 
 .addres_cont{
@@ -294,7 +299,9 @@ li {
    padding: 100px 0;
 }
 
-
+.container_nav{
+   align-items: center;
+}
 
 .footer-content {
    display: flex;
