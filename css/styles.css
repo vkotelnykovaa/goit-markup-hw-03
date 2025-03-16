@@ -156,6 +156,12 @@ li {
    text-align: center;
 }
 
+.teamsection-details{
+         padding: 32px 0;
+         text-align: center;
+         background-color: #f4f4f4;
+}
+
 .title_three {
    font-weight: 500;
    font-size: 20px;
