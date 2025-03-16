@@ -58,7 +58,7 @@ section h2 {
 .container_nav {
    display: flex;
    flex-direction: row;
-   gap: 20px;
+   gap: 40px;
    align-items: center;
 }
 
@@ -100,8 +100,16 @@ li {
    gap: 40px
 }
 
-list_marg{
+.list_marg{
    padding: 24px 0;
+}
+
+.navigation-item {
+   margin-right: 40px;
+}
+
+.navigation-item:last-child {
+   margin-right: 0;
 }
 
 .container_head {
