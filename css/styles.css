@@ -100,6 +100,7 @@ li {
 
 .navigation_item {
    margin-right: 40px;
+   padding: 24px 0;
 }
 
 .navigation_item:last-child {
@@ -268,11 +269,11 @@ li {
    
 }
 
-.fd_row {
+.flexd_row {
    flex-direction: row;
 }
 
-.fd_column {
+.flexd_column {
    flex-direction: column;
 }
 
@@ -320,22 +321,18 @@ li {
 .portfolio_item {
    border: 1px solid #e7e9fc;
    padding: 10px;
-   width: calc(33.3333% - 24px);
    text-align:left;
+   width: calc((100% - 48px) / 3);
 }
 
 .portfolio_item:last-child {
    margin-bottom: 0;
 }
 
-.portfolio_list_container:first-child{
-   width: calc((100% - 48px) / 3);
-}
-
 .portfolio_content{
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
-
+   border-top: none;
 }
 
 .portfolio_name{
@@ -353,4 +350,18 @@ li {
 
 .logo_brand a{
    display: inline-block;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
