@@ -1,69 +1,55 @@
 * {
    box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
    margin: 0;
    padding: 0;
+   width: 100%;
+   
 }
 
 img {
    display: block;
+   max-width: 100%;
+   object-fit: cover;
 }
 
 body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    line-height: 1.5;
    color: #434455;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
    min-height: 100vh;
-   background-color: #f4f4f4;
+   
 }
 
-header {
-   width: 100%;
-   padding: 20px 40px;
-   border-bottom: 1px solid #e7e9fc;
+.team_sec{
+   background-color: #F4F4FD;
 }
 
 section {
+   width: 100%;
+   text-align: center;
    padding: 120px 0;
-}
-
-.container_head {
-   display: flex;
-   align-items: flex-start;
-   justify-content: space-between;
-   flex-direction: row;
-   border-bottom: 1px solid #e7e9fc;
-   max-width: 1158px;
-   padding: 0 15px;
 }
 
 section h2 {
    margin-bottom: 20px;
 }
 
-.container_nav {
-   display: flex;
-   flex-direction: row;
-   gap: 40px;
-   align-items: center;
-}
-
 ul li {
    margin-bottom: 5px;
+}
+
+.container_head {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding: 0 20px;
+   box-sizing: border-box;
 }
 
 .portfolio_card {
@@ -87,6 +73,7 @@ a {
    color: inherit;
 }
 
+
 li {
    list-style: none;
 }
@@ -94,10 +81,6 @@ li {
 .site_footer {
    background-color: #2e2f42;
    color: white;
-}
-
-.list_marg {
-   gap: 40px;
 }
 
 .list_marg {
@@ -112,10 +95,16 @@ li {
    margin-right: 0;
 }
 
-.container_head {
+.nav_container {
    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+}
+
+.nav_list {
+   display: flex;
+   gap: 40px;
+   list-style: none;
 }
 
 .logo_brand {
@@ -130,7 +119,11 @@ li {
 }
 
 .addres_cont {
+   display: flex;
    gap: 40px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
 }
 
 .navigation_item a {
@@ -180,7 +173,6 @@ li {
 .teamsection-details {
    padding: 32px 0;
    text-align: center;
-   background-color: #f4f4f4;
 }
 
 .title_three {
@@ -205,25 +197,12 @@ li {
    line-height: 1.5;
    letter-spacing: 0.04em;
    border-radius: 4px;
-   padding: 16px 32px;
    width: 169px;
    height: 56px;
    display: block;
    border: none;
    margin: 0 auto;
    min-width: 169px;
-}
-
-.visually-hidden {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   padding: 0;
-   border: 0;
-   clip: rect(0, 0, 0, 0);
-   clip-path: inset(50%);
-   overflow: hidden;
 }
 
 .order_but:hover {
@@ -234,27 +213,15 @@ li {
    background: #2e2f42;
    color: white;
    text-align: center;
-   padding: 188px 0;
    border-radius: 4px;
-}
-
-.teamsection {
-   background-color: #F4F4FD;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
 }
 
 .contacts_address {
    font-style: normal;
    letter-spacing: 0.02em;
-}
-
-.container_buisness {
-   display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   flex-direction: column;
-   width: 1158px;
-   margin: 0 auto;
-   padding: 0 15px;
 }
 
 .contacts:hover,
@@ -264,17 +231,6 @@ li {
 }
 
 .studio {
-   color: #2e2f42;
-}
-
-.navigation_item:hover,
-.navigation_item:active {
-   color: #2e2f42;
-}
-
-.navigation_item {
-   font-weight: 500;
-   letter-spacing: 0.02em;
    color: #2e2f42;
 }
 
@@ -291,11 +247,12 @@ li {
 
 .container {
    display: flex;
-   align-items: flex-start;
-   justify-content: flex-start;
-   width: 1158px;
+   max-width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
+   box-sizing: border-box;
+   display: flex;
+   
 }
 
 .fd_row {
@@ -304,7 +261,6 @@ li {
 
 .fd_column {
    flex-direction: column;
-   align-items: center;
 }
 
 .features_container {
@@ -319,19 +275,7 @@ li {
    padding: 100px 0;
 }
 
-.container_nav {
-   align-items: center;
-}
-
-.footer-content {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-}
-
-.logo-brand {
+.logo_brand {
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
@@ -349,7 +293,6 @@ li {
    letter-spacing: 0.02em;
    color: #F4F4FD;
    max-width: 264px;
-   text-align: center;
 }
 
 .feature_item {
@@ -366,11 +309,6 @@ li {
    margin-bottom: 8px;
 }
 
-.teamsection {
-   background-color: #F4F4FD;
-   padding: 120px 0;
-}
-
 .teamsection-list {
    display: flex;
    gap: 24px;
@@ -383,10 +321,11 @@ li {
    border-radius: 0px 0px 4px 4px;
    text-align: center;
    background-color: #fff;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.teamsection-content {
-   padding: 32px 0;
+.ai_center{
+   align-items: center;
 }
 
 .title-three {
@@ -403,10 +342,6 @@ li {
    color: #434455;
 }
 
-.nav_container {
-   gap: 40px;
-}
-
 .portfolio_list_container {
    display: flex;
    flex-wrap: wrap;
@@ -419,7 +354,7 @@ li {
    border: 1px solid #e7e9fc;
    padding: 10px;
    width: calc(33.3333% - 24px);
-   text-align: center;
+   text-align:left;
 }
 
 .portfolio_item:last-child {
