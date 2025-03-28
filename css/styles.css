@@ -117,6 +117,7 @@ li {
    display: flex;
    gap: 40px;
    list-style: none;
+   padding: 24px 0
 }
 
 .logo_brand {
@@ -352,7 +353,7 @@ li {
    display: inline-block;
 }
 
-.visually-hidden {
+.visually_hidden {
    position: absolute;
    width: 1px;
    height: 1px;
