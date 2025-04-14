@@ -64,6 +64,10 @@ a {
    color: inherit;
 }
 
+.link_nav{
+   padding: 24px 0;
+}
+
 li {
    list-style: none;
 }
@@ -76,7 +80,6 @@ li {
 
 .navigation_item {
    margin-right: 40px;
-   padding: 24px 0;
 }
 
 .navigation_item:last-child {
