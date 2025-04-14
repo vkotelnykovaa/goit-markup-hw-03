@@ -78,10 +78,6 @@ li {
    padding: 100px 0;
 }
 
-.navigation_item {
-   margin-right: 40px;
-}
-
 .navigation_item:last-child {
    margin-right: 0;
 }
